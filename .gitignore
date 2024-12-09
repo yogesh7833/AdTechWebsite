@@ -1,0 +1,47 @@
+# Ignore Node.js dependencies
+node_modules/
+
+# Build output directories
+dist/
+build/
+
+# Logs and debugging
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Coverage reports
+coverage/
+
+# Dependency directories
+bower_components/
+
+# Miscellaneous
+*.lock
+*.bak
+*.log
+*.cache
